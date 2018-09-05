@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>扫雷</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div class="myGame">
+        <div class="choose">
+            <ul>
+                <li>简单 9x9</li>
+                <li>中等 16x16</li>
+                <li>专家 22x22</li>
+            </ul>
+        </div>
+        <div class="game">
+            <div class="end">
+                <div class="info">
+                    <div class="result"></div>
+                    <button class="newGame">新的游戏</button>
+                    <button class="restart">重新开始</button>
+                </div>
+            </div>
+            <div class="top">
+                <div class="return" title="返回首页">←</div>
+                <div class="score">
+                    <div class="time">00:00</div><div class="mineLeft">0</div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="js/tools.js"></script>
+    <script src="js/game.js"></script>
+</body>
+
+</html>
